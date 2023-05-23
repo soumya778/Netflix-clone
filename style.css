@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+   background-size: cover;
+   max-width: 100%;
+   height: 100vh;
+   opacity: 0.8;
+   padding: 0 6em;
+   /* position: relative; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:azure; */
+ }
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    justify-content: flex-start;
+    margin-top: 4em;
+}
+input[type=button]{
+    padding: 0.5em;
+    font-size: 30px;
+    border: 2px solid red;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: blue;
+    transform: scale(1.2);
+}
+.ad{
+    color: bisque;
+    /* width: 37em; */
+    margin:0 50px;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 12em;
+}
+h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+h4{
+    font-size: 50px;
+    margin-top: 0.8em;
+}
+p{
+    font-size: 35px;
+    margin-top: 0.8em;
+    color: white;
+}
+.button{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    
+}
+input[type=text]{
+    font-size: 40px;
+    background-color: black;
+    opacity: 0.8;
+    color: aliceblue;
+    padding: 0.2em;
+}
+.button>input[type=button]{
+    font-size: 40px;
+    background-color: red;
+    color: aliceblue;
+    padding: 0.2em;
+    cursor: pointer;
+}
+.sec2,.sec3,.sec4,.sec5{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    padding: 7em 5em;
+    margin-top: 0.4em;
+    gap: 6em;
+
+}
+.sec7{
+    background-color: black;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    padding: 7em 5em;
+    margin-top: 0.4em;
+    /* gap: 6em; */
+}
+.fit-photo{
+    width: 100%;
+    flex-basis: 50%;
+}
+.leftxt{
+    color: aliceblue;
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-basis: 50%;
+    padding: 150px 30px;
+    /* width: 600vw; */
+}
+.sec6{
+    text-align: center;
+    background-color: black;
+    padding-top: 80px;
+    padding: 0 15em;
+}
+.faq{
+    padding:50px 0;
+}
+button{
+    padding: 30px;
+    background: none;
+    color: aliceblue;
+    font-size: 25px;
+    border: 1px solid lightgrey;
+    width:100% ;
+    /* text-align: left; */
+    margin-top: 20px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color:wheat;
+    opacity: 0.8;
+}
+#end{
+    padding-bottom: 140px;
+}
+.container{
+    margin: 0 55px;
+    padding: 20px 0;
+    color: rgb(175, 170, 170);
+    font-size: 30px;
+}
+.que{
+    /* display: flex; */
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.elements{
+   display: flex;
+   flex-direction: row;
+   /* flex-basis: 25%; */
+} 
+.flex{
+    flex-basis: 25%;
+}
+@media  screen and (max-width:1024px) {
+    .sec2,.sec3,.sec4,.sec5,.sec7{
+        flex-wrap: wrap;
+    }
+    .sec1{
+        padding: 0 0.3em;
+    }
+    h1{
+       font-size: 55px;
+    }
+    h4,p{
+        font-size: 32px;
+    }
+    .leftxt{
+        flex-basis: 100%;
+        padding: 30px 20px;
+    }
+    input[type=button]{
+        font-size: 25px;
+    }
+    .button>input[type=button]{
+        font-size: 30px;
+    }
+    .sec6{
+        padding:60px 1em ;
+     }
+
+}
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 50px;
+     } 
+     h4,p{
+        font-size: 27px;
+    }
+   
+    .ad{
+        margin-top: 9em;
+    }
+    .sec6{
+       padding:60px 1em ;
+    }
+    input[type=text]{
+        font-size: 30px;
+    }
+    .navbar{
+        margin-top: 3em;
+    }
+    img{
+        width: 250px;
+    }
+    input[type=button]{
+        padding: 0.3em;
+    }
+}
+    
+
