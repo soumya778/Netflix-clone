@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .sec1{
    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
    background-size: cover;
    max-width: 100%;
-   height: 100vh;
+   height: 700px;
    opacity: 0.8;
    padding: 0 6em;
    /* position: relative; */
@@ -14,19 +15,14 @@
 nav{
     display: flex;
     justify-content: space-between;
+    height: 20px;
     /* background-color:azure; */
  }
-.navbar{
-    display: flex;
-    align-items: flex-start;
-    gap: 2em;
-    justify-content: flex-start;
-    margin-top: 4em;
-}
 input[type=button]{
-    padding: 0.5em;
-    font-size: 30px;
+    padding:5px;
+    font-size: 20px;
     border: 2px solid red;
+    margin-top: 40px;
 }
 input[type=button]:hover{
     cursor: pointer;
@@ -36,40 +32,41 @@ input[type=button]:hover{
 .ad{
     color: bisque;
     /* width: 37em; */
+    display: flex;
+    flex-direction: column;
     margin:0 50px;
     text-align: center;
-    justify-content: center;
-    /* align-items: center; */
-    margin-top: 12em;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
 }
 h1{
-    font-size: 70px;
+    font-size: 60px;
     color: aliceblue;
 }
 h4{
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 0.8em;
 }
 p{
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 0.8em;
     color: white;
 }
 .button{
-    margin-top: 4em;
-    display: flex;
-    justify-content: center;
+    margin-top: 2em;
+
     
 }
-input[type=text]{
-    font-size: 40px;
+.button>input[type=text]{
+    font-size: 30px;
     background-color: black;
     opacity: 0.8;
     color: aliceblue;
-    padding: 0.2em;
+    padding: 5px;
 }
 .button>input[type=button]{
-    font-size: 40px;
+    font-size: 30px;
     background-color: red;
     color: aliceblue;
     padding: 0.2em;
@@ -87,9 +84,6 @@ input[type=text]{
 }
 .sec7{
     background-color: black;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
     padding: 7em 5em;
     margin-top: 0.4em;
     /* gap: 6em; */
@@ -149,16 +143,25 @@ button:hover{
 }
 li{
     list-style-type: none;
-    text-decoration: underline;
+    font-size: 25px;
+}
+li:hover{
+    cursor: pointer;
 }
 
 .elements{
    display: flex;
    flex-direction: row;
    /* flex-basis: 25%; */
+   row-gap: 30px;
+   margin-top: 100px;
+
 } 
 .flex{
+    display: flex;
+    flex-direction: column;
     flex-basis: 25%;
+    
 }
 @media  screen and (max-width:1024px) {
     .sec2,.sec3,.sec4,.sec5,.sec7{
